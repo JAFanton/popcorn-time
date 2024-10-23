@@ -10,11 +10,11 @@ function MovieList() {
     });
 
     setMoviesToDisplay(newArray);
-  }
+  };
 
   return (
     <section className="MovieList">
-      <h1>List of movies:</h1>
+      <h2>We currently have {moviesToDisplay.length} movies available</h2>
 
       {moviesToDisplay.map((movieObj) => {
         return (
