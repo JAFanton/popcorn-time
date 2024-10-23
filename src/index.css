@@ -54,3 +54,15 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.card {
+  max-width: 80%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid auto;
+  box-shadow: inset;
+}
+
+.card hover{
+  border-color: #646cff;
+}
