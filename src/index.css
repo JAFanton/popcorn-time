@@ -24,10 +24,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
   text-align: center;
 }
 
@@ -59,10 +55,16 @@ button:focus-visible {
   max-width: 80%;
   margin: 1rem auto;
   padding: 1rem;
-  border: 1px solid auto;
-  box-shadow: inset;
+  border: 1px solid #666;
+  box-shadow: 5px 5px 10px -5px;
+  transition: 0.4s;
 }
 
-.card hover{
-  border-color: #646cff;
+.card:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 0px;
+}
+
+button {
+  color: white;
 }
